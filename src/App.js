@@ -1,11 +1,11 @@
 import React from 'react';
-//import logo from './logo.svg';
+import JokeList from './JokeList';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-
+      <JokeList />
     </div>
   );
 }
